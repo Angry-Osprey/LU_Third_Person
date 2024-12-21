@@ -1,1 +1,4 @@
-Content/** filter=lfs diff=lfs merge=lfs -text
+#Auto detect text files and preform LF Normalization
+text=auto
+
+Content/Static/** filter=lfs diff=lfs merge=lfs -text
